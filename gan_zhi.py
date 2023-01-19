@@ -8,6 +8,7 @@ di_zhi="子丑寅卯辰巳午未申酉戌亥"
 from skyfield import api
 ts = api.load.timescale()
 eph = api.load('de405.bsp')
+#eph = api.load('https://github.com/skyfielders/python-skyfield/tree/master/ci/de405.bsp')
 from skyfield import almanac
 from skyfield import almanac_east_asia as almanac_ea
 format='%Y-%m-%d %H:'
